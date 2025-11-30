@@ -1,33 +1,32 @@
-# Projet : Exploration de FreeRTOS sous POSIX
+## FreeRTOS Exploration on POSIX
 
-Ce dépôt regroupe mes tests autour des mécanismes internes de FreeRTOS, exécutés via le port POSIX.
-L’objectif est de comprendre en profondeur le fonctionnement du noyau (ordonnancement, synchronisation, communication inter-tâches) dans un environnement Linux, sans dépendre d’une carte embarquée.
+This repository contains my experiments with the internal mechanisms of FreeRTOS, executed via the POSIX port. The goal is to gain a deep understanding of the kernel (scheduling, synchronization, inter-task communication) in a Linux environment, without relying on embedded hardware.
 
-# Contenu
+# Contents
 
-- Mise en place et gestion de tâches (priorités, comportement du scheduler).
+- Task creation and management (priorities, scheduler behavior).
 
-- Utilisation de mutex et sémaphores pour la synchronisation.
+- Use of mutexes and semaphores for synchronization.
 
-- Tests de queues et de notifications pour la communication entre tâches.
+- Testing queues and notifications for inter-task communication.
 
-- Manipulation des timers et exploration des hooks proposés par FreeRTOS.
+- Timer manipulation and exploration of FreeRTOS hooks.
 
-- Portage et exécution via POSIX threads.
+- Porting and execution via POSIX threads.
 
-# Ce que ce projet met en avant
+# Project Highlights
 
-- Compréhension pratique des concepts temps réel.
+- Practical understanding of real-time concepts.
 
-- Expérience avec les mécanismes de synchronisation et la communication inter-tâches.
+- Experience with synchronization and inter-task communication mechanisms.
 
-- Capacité à travailler sur FreeRTOS sans matériel spécifique, grâce au port POSIX.
+- Ability to work with FreeRTOS without specific hardware, thanks to the POSIX port.
 
-- Développement en C dans un environnement Linux.
+- Development in C on a Linux environment.
 
 # Technologies
 
-- FreeRTOS (port POSIX)
+- FreeRTOS (POSIX port)
 
 - C
 
