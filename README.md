@@ -23,7 +23,7 @@ L’objectif est de comprendre en profondeur le fonctionnement du noyau (ordonna
 
 - Capacité à travailler sur FreeRTOS sans matériel spécifique, grâce au port POSIX.
 
-- Développement en C dans un environnement Linux (Makefile, pthreads).
+- Développement en C dans un environnement Linux.
 
 # Technologies
 
