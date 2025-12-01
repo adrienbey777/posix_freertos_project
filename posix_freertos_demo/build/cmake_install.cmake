@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/adrie/Project_Github/posix_freertos_project - Copie/posix_freertos_demo
+# Install script for directory: /mnt/c/Users/adrie/Project_Github/posix_freertos_project/posix_freertos_demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/adrie/Project_Github/posix_freertos_project - Copie/posix_freertos_demo/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/adrie/Project_Github/posix_freertos_project/posix_freertos_demo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
