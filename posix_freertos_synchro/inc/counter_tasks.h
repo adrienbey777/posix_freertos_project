@@ -2,6 +2,6 @@
 #define COUNTER_TASKS_H
 
 /* Create Task A + Task B */
-void createCounterTasks(void);
+void counter_tasks_create(void);
 
 #endif

@@ -13,7 +13,7 @@ TaskHandle_t xTaskDHandle = NULL;
 static void vTaskC(void *pvParameters);
 static void vTaskD(void *pvParameters);
 
-void createTimerTasks(void)
+void timer_tasks_create(void)
 {
     /* Task C */
     xTaskCreate(

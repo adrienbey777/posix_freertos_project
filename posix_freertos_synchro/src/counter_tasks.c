@@ -11,7 +11,7 @@ static SemaphoreHandle_t xCounterMutex = NULL;
 static void vTaskA(void *pvParameters);
 static void vTaskB(void *pvParameters);
 
-void createCounterTasks(void)
+void counter_tasks_create(void)
 {
     /* Create mutex */
     xCounterMutex = xSemaphoreCreateMutex();

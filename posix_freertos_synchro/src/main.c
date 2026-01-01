@@ -36,8 +36,8 @@ int main(void)
     xTimerStart(xTimer, 0);
 
     /* Create tasks */
-    createCounterTasks();  /* Task A + B */
-    createTimerTasks();    /* Task C + D */
+    counter_tasks_create();  /* Task A + B */
+    timer_tasks_create();    /* Task C + D */
 
     /* Start scheduler */
     vTaskStartScheduler();
