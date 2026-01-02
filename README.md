@@ -1,6 +1,6 @@
 # FreeRTOS Exploration on POSIX
 
-This repository contains my experiments with the internal mechanisms of FreeRTOS, executed via the POSIX port. The goal is to gain a deep understanding of the kernel (scheduling, synchronization, inter-task communication) in a Linux environment, without relying on embedded hardware.
+This repository provides an in-depth study of the internal mechanisms of the FreeRTOS kernel using its POSIX port, enabling the analysis of the kernel’s operation in a Linux environment. It focuses on core kernel features, including scheduling, synchronization primitives, and inter-task communication, enabling analysis and experimentation in a Linux environment without the constraints of embedded hardware.
 
 ## Contents
 

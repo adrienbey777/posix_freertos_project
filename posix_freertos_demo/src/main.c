@@ -26,7 +26,7 @@ int main(void)
 
     console_print("=== FreeRTOS Startup ===\r\n");
 
-    /* --- Create tasks --- */
+    /* Create tasks */
 
     BaseType_t xReturned;
 
