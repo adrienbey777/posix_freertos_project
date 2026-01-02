@@ -12,17 +12,17 @@ Console thread-safe pour afficher les ticks des tâches
 
 Structure du projet
 
-posix_freertos_project/
-├─ FreeRTOS-Kernel/          # Sources FreeRTOS
-├─ posix_freertos_demo/      # Code de l'application
-│  ├─ build/                 # Compilation (généré par CMake)
-│  ├─ inc/                   # Includes locaux
-│  │  ├─ console.h
-│  │  └─ FreeRTOSConfig.h 
-│  ├─ src/                   # Code source de l'application
-│  │  ├─ main.c              # Point d'entrée principal
-│  │  └─ console.c           # Console thread-safe   
-│  └─ CMakeLists.txt         # Configuration CMake
+posix_freertos_project/  
+├─ FreeRTOS-Kernel/          # Sources FreeRTOS  
+├─ posix_freertos_demo/      # Code de l'application  
+│  ├─ build/                 # Compilation (généré par CMake)  
+│  ├─ inc/                   # Includes locaux  
+│  │  ├─ console.h  
+│  │  └─ FreeRTOSConfig.h   
+│  ├─ src/                   # Code source de l'application  
+│  │  ├─ main.c              # Point d'entrée principal  
+│  │  └─ console.c           # Console thread-safe     
+│  └─ CMakeLists.txt         # Configuration CMake  
 
 
 Prérequis
@@ -51,15 +51,15 @@ cmake --build .
 Lancer le binaire :
 ./main
 
-Résultat attendu
-=== Démarrage FreeRTOS ===
-Lancement du scheduler...
-[Task A] Tick = 0
->> [Task B] Tick = 0
-[Task A] Tick = 700
->> [Task B] Tick = 1200
-[Task A] Tick = 1400
-[Task A] Tick = 2100
+Résultat attendu  
+=== Démarrage FreeRTOS ===     
+Lancement du scheduler...  
+[Task A] Tick = 0  
+`>>` [Task B] Tick = 0  
+[Task A] Tick = 700  
+`>>` [Task B] Tick = 1200  
+[Task A] Tick = 1400  
+[Task A] Tick = 2100  
 ...
 
 
