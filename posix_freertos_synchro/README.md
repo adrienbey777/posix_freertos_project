@@ -14,22 +14,22 @@ Task D démarrée depuis Task C
 
 Console thread-safe pour afficher les messages
 
-Structure du projet
-posix_freertos_project/
-├─ FreeRTOS-Kernel/          # Sources FreeRTOS
-├─ posix_freertos_demo/      # Code de l'application
-│  ├─ build/                 # Compilation (généré par CMake)
-│  ├─ inc/                   # Includes locaux
-│  │  ├─ console.h
-│  │  ├─ counter_tasks.h
-│  │  ├─ timer_tasks.h
-│  │  └─ FreeRTOSConfig.h 
-│  ├─ src/                   # Code source de l'application
-│  │  ├─ main.c              # Point d'entrée principal
-│  │  ├─ console.c           # Console thread-safe
-│  │  ├─ counter_tasks.c     # Task A + Task B
-│  │  └─ timer_tasks.c       # Task C + Task D + Timer
-│  └─ CMakeLists.txt         # Configuration CMake
+Structure du projet  
+posix_freertos_project/  
+├─ FreeRTOS-Kernel/          # Sources FreeRTOS  
+├─ posix_freertos_demo/      # Code de l'application  
+│  ├─ build/                 # Compilation (généré par CMake)  
+│  ├─ inc/                   # Includes locaux  
+│  │  ├─ console.h  
+│  │  ├─ counter_tasks.h  
+│  │  ├─ timer_tasks.h  
+│  │  └─ FreeRTOSConfig.h   
+│  ├─ src/                   # Code source de l'application  
+│  │  ├─ main.c              # Point d'entrée principal  
+│  │  ├─ console.c           # Console thread-safe  
+│  │  ├─ counter_tasks.c     # Task A + Task B  
+│  │  └─ timer_tasks.c       # Task C + Task D + Timer  
+│  └─ CMakeLists.txt         # Configuration CMake  
 
 Prérequis
 
