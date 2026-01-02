@@ -69,19 +69,19 @@ ou en une seule commande :
 mkdir build && cd build && cmake .. && cmake --build . && ./main
 
 [Task A] SharedCounter = 1  
-[Task B] SharedCounter = 11  
->> [Timer] Callback executed  
+[Task B] SharedCounter = 11   
+`>>` [Timer] Callback executed   
 [Task C] Timer triggered, starting Task D...  
 [Task D] Started!  
 [Task D] Running...  
 [Task A] SharedCounter = 12  
 [Task B] SharedCounter = 22  
->> [Timer] Callback executed  
+`>>` [Timer] Callback executed  
 [Task C] Timer triggered    
 [Task D] Running...  
 [Task A] SharedCounter = 23   
 [Task B] SharedCounter = 33   
->> [Timer] Callback executed  
+`>>` [Timer] Callback executed  
 [Task C] Timer triggered      
 [Task D] Running...          
 
